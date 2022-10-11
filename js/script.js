@@ -26,7 +26,7 @@ if(userAge >= 65){
     let youngPrice = pricePerKilometer - pricePerKilometer * youngDiscount;
     let youngPriceFixed = youngPrice.toFixed(2);
     document.getElementById('text').innerHTML = `
-    Prezzo con sconto del ${youngDiscount * 100}% per under 18: ${agedPrice}
+    Prezzo con sconto del ${youngDiscount * 100}% per under 18: ${youngPriceFixed}
 `;
     
     // console.log('Prezzo per under 18:', youngPriceFixed);
